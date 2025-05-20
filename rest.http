@@ -1,0 +1,18 @@
+POST http://localhost:5000/message
+Content-Type: text/plain
+
+Hello from rest.http!
+
+###
+
+POST http://localhost:5000/message
+Content-Type: text/plain
+
+This is another message.
+
+###
+
+POST http://localhost:5000/message
+Content-Type: text/plain
+
+sair
