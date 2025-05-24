@@ -1,0 +1,9 @@
+GET http://localhost:5000/
+
+###
+
+GET http://localhost:5000/note/view
+
+###
+
+GET http://localhost:5000/note/create
