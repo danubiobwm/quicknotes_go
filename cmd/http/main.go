@@ -9,6 +9,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/danubiobwm/quicknotes_go/internal/mailer"
 	"github.com/jackc/pgx/v5/pgxpool"
 )
 

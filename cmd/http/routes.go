@@ -5,7 +5,10 @@ import (
 	"log/slog"
 	"net/http"
 
-	"github.com/danubiobwm/quicknotes_go/mailer"
+	"github.com/danubiobwm/quicknotes_go/internal/handlers"
+	"github.com/danubiobwm/quicknotes_go/internal/mailer"
+	"github.com/danubiobwm/quicknotes_go/internal/render"
+	"github.com/danubiobwm/quicknotes_go/internal/repositories"
 	"github.com/danubiobwm/quicknotes_go/views"
 	"github.com/jackc/pgx/v5/pgxpool"
 )

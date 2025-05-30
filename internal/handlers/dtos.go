@@ -3,6 +3,8 @@ package handlers
 import (
 	"fmt"
 	"html/template"
+
+	"github.com/danubiobwm/quicknotes_go/internal/models"
 )
 
 type NoteResponse struct {
